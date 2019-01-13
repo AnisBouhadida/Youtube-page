@@ -1,0 +1,105 @@
+.main-navbar {
+   border-bottom: 1px solid gray;
+   width: 100%;
+   margin-bottom: 20px;
+   overflow: hidden;
+   padding: 20px 0;
+}
+
+.main-navbar .left-nav {
+   float: left;
+   width: 30%;
+   margin: 0;
+   padding-right: 30px;
+}
+
+.main-navbar .left-nav ul {
+   margin: 0;
+   padding: 0;
+}
+
+.main-navbar .left-nav ul li {
+   display: inline;
+}
+
+.main-navbar .left-nav ul li #menu-ico {
+   width: 30px;
+   height: 30px;
+}
+
+.main-navbar .left-nav ul li #yt-logo {
+   width: 50px;
+   height: 30px;
+   padding-right: 20px;
+
+}
+
+.main-navbar .search-box {
+   width: 30%;
+   margin: 0;
+   float: left;
+}
+
+.main-navbar .search-box input {
+   width: 70%;
+   height: 30px;
+}
+
+.main-navbar .right-nav {
+   float: left;
+   width: 30%;
+   margin: 0;
+   padding-left: 30px;
+   text-align: end;
+}
+
+.main-navbar .right-nav ul {
+   margin: 0;
+   padding: 0;
+}
+
+.main-navbar .right-nav ul li {
+   display: inline;
+}
+
+.main-navbar .right-nav ul li #yt-menu-ico {
+   width: 30px;
+   height: 30px;
+   padding-right: 20px;
+}
+
+.clear {
+   clear: both;
+}
+
+.main-content {
+   border: 1px solid blue;
+   float: left;
+   width: 68%;
+
+}
+
+.main-content .video-section {
+   text-align: center;
+}
+
+.main-content .info-section #info-options {
+   padding: 0;
+}
+
+.main-content .info-section #info-options li {
+   display: inline;
+}
+
+.main-content .info-section #info-options li p {
+   width: 20%;
+   margin: 0;
+   float: left;
+}
+
+
+.main-sidebar {
+   border: 1px solid green;
+   width: 30%;
+   float: right;
+}
