@@ -1,9 +1,13 @@
+body {
+   font-family: 'Roboto', sans-serif;
+}
+
 .main-navbar {
-   border-bottom: 1px solid gray;
    width: 100%;
    margin-bottom: 20px;
    overflow: hidden;
-   padding: 20px 0;
+   padding: 5px 0;
+   box-shadow: 0 5px 10px 1px lightgray;
 }
 
 .main-navbar .left-nav {
@@ -40,9 +44,14 @@
    float: left;
 }
 
-.main-navbar .search-box input {
-   width: 70%;
+.main-navbar .search-box #search {
+   width: 80%;
    height: 30px;
+}
+
+.main-navbar .search-box button {
+   width: 50px;
+   height: 38px;
 }
 
 .main-navbar .right-nav {
@@ -73,10 +82,12 @@
 }
 
 .main-content {
-   border: 1px solid blue;
    float: left;
    width: 68%;
+}
 
+hr {
+   color: lightgray;
 }
 
 .main-content .video-section {
@@ -97,9 +108,15 @@
    float: left;
 }
 
-
 .main-sidebar {
    border: 1px solid green;
    width: 30%;
    float: right;
 }
+
+.main-sidebar ul {
+   list-style: none;
+   overflow: hidden;
+}
+
+.main-sidebar li {}
